@@ -326,7 +326,7 @@
 							list += '<div class="ytv-list-header">';
 								list += '<a href="'+(user.url)+'" target="_blank">';
 									list += '<img src="'+(user.thumb)+'">';
-									list += '<span><i class="ytv-arrow down"></i>'+(user.title)+'</span>';
+									list += '<span><i class="ytv-arrow down"></i>'+(settings.currentPlaylist)+'</span>';
 								list += '</a>';
 							list += '</div>';
 							
