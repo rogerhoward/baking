@@ -1,0 +1,1 @@
+rsync --compress --delete-after --exclude .git/ --progress -auv -e ssh ./ rogerhoward@bakewithgrandma.com:/home/rogerhoward/www/bakewithgrandma.com/
